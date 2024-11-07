@@ -44,5 +44,25 @@ print(plan)
 ['move_A_to_B', 'move_B_to_C']
 ```
 
-# Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
-<h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
+# Solution For the method find_plan(initial_state, goal_state, actions)
+<br>
+The find_plan function aims to determine a sequence of actions to transition from an initial state to a goal state using Breadth-First Search (BFS). Here's a concise breakdown:
+<br>
+
+1. Initialize: Set up the initial state, goal state, actions, queue, and visited states.
+
+2. Search Loop: Continuously process states from the queue.
+
+3. Goal Check: Return the sequence of actions if the goal state is reached.
+
+4. State Visit: Skip states that have been visited.
+
+5. Apply Actions: Apply applicable actions to generate new states and enqueue them for further exploration.
+
+6. End Condition: Print "No plan exists" if no solution is found after exploring all possibilities.
+
+This method ensures finding the shortest path to reach the goal state by exploring all possible state transitions efficiently.
+<br>
+
+# Result:
+Thus the solution for method find_plan(initial_state, goal_state, actions) is prepared successfully.
